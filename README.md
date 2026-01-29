@@ -10,3 +10,11 @@ The site is split into:
 
 ## Repository Structure
 
+repo/
+├─ apps/
+│  ├─ web/        # Next.js main website
+│  └─ docs/       # Docusaurus documentation
+└─ .github/
+   └─ workflows/  # CI/CD (build & GitHub Pages deployment)
+
+
