@@ -5,48 +5,52 @@ sidebar_position: 1
 
 # Introduction
 
-Welcome to **HPC Training Documentations**.
+Welcome to **HPC Training Documentation**.
 
-This repository hosts all materials for the **HPC Basic Skills** training, designed to help new users get comfortable working in high-performance computing (HPC) environments.
+This site serves as a central hub for a growing collection of high-performance computing (HPC) training series developed for SDSC users. The materials are organized into themed learning tracks that range from introductory concepts to more advanced HPC workflows and tools.
+
+Whether you are completely new to HPC or looking to deepen your technical skills, this documentation provides structured, hands-on guidance for working effectively on modern supercomputing systems.
 
 ---
 
-## What you’ll learn
+## What you’ll find here
 
-In this tutorial series, you will learn the core skills needed to work effectively on HPC systems through the following modules:
+This training portal currently includes multiple tutorial series, each targeting different aspects of HPC usage and best practices, such as:
 
-- **Using SDSC HPC Resources: Basic Linux Skills on Expanse**
-- **Interactive Computing on the Expanse Cluster**
-- **Using Jupyter Notebooks on the SDSC Expanse Cluster**
-- **Using GitHub at SDSC**
+- **HPC Basic Skills** — foundational Linux and Expanse usage
+- **Interactive Computing on Expanse** — running and managing interactive jobs  
+- **Jupyter on Expanse** — using notebooks in an HPC environment  
+- **GitHub at SDSC** — version control and collaborative workflows  
+- *(More series to be added over time as the curriculum expands.)*
 
-:::tip Learning path
-The modules are designed to build progressively, but you may also navigate directly to individual topics as needed.
+:::tip Learning paths
+Each series is designed as a coherent learning path, but you are free to jump directly to any module that matches your current needs or interests.
 :::
 
 ---
 
 ## Who this is for
 
-This training is intended for:
+This documentation is intended for:
 
-- Students and researchers new to HPC
-- Users transitioning from local computing to shared HPC systems
-- Anyone looking to build a solid foundation in HPC workflows
+- Students, researchers, and staff new to HPC  
+- Users transitioning from laptops or cloud computing to shared supercomputing systems  
+- Anyone who wants a practical, hands-on foundation in HPC workflows  
+- Teams looking for a consistent training resource for new members  
 
 :::note No prior HPC experience required
-Basic familiarity with a terminal is helpful, but not required. The training starts from fundamentals.
+Basic familiarity with a terminal is helpful, but not required. The materials begin from fundamentals and build up gradually.
 :::
 
 ---
 
-## Getting started
+## How to get started
 
-Use the navigation sidebar to explore the topics.
+Use the navigation sidebar to browse available training series and modules.
 
 :::important Recommended starting point
-If you are new to HPC or the Linux command line, begin with  
-**Using SDSC HPC Resources: Basic Linux Skills on Expanse**.
+If you are new to HPC or the Linux command line, we recommend beginning with:  
+**HPC Basic Skills — Using SDSC HPC Resources on Expanse**.
 :::
 
 ---

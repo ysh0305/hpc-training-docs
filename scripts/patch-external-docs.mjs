@@ -72,10 +72,6 @@ function patchMdx(text) {
     // Remove inline style="..." (invalid in JSX)
     .replace(/\sstyle="[^"]*"/gi, "")
 
-    // Convert placeholder syntax to inline code:
-    // "<< module name >>" OR "<module name>" -> `module name`
-    .replace(/<<\s*([^<>]+?)\s*>>|<([a-z][^<>]*?)>/gi, (_, p1, p2) => `\`${(p1 || p2).trim()}\``)
-
     // Convert <b>text</b> to **text**, remove stray tags
     .replace(/<b>(.*?)<\/b>/gi, "**$1**")
     .replace(/<\/?b>/gi, "")
@@ -90,6 +86,10 @@ function patchMdx(text) {
     // Example: "[ [Back to Top](#top)" or "[ [Back to X](#y) ]"
     .replace(/\[\s*\[\s*Back to[^\n]*$/gim, "")
     .replace(/\[\s*Back to[^\n]*$/gim, "")
+
+    // Convert placeholder syntax to inline code:
+    // "<< module name >>" OR "<module name>" -> `module name`
+    .replace(/<<\s*([^<>]+?)\s*>>|<([a-z][^<>]*?)>/gi, (_, p1, p2) => `\`${(p1 || p2).trim()}\``)
     ;
 }
 
