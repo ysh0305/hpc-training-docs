@@ -1,6 +1,7 @@
 [submodule "docs_external/basic_skills"]
 	path = docs_external/basic_skills
 	url = https://github.com/sdsc-hpc-training-org/basic_skills.git
+	branch = hpc-training-doc
 [submodule "docs_external/galyleo"]
 	path = docs_external/galyleo
 	url = https://github.com/mkandes/galyleo.git
