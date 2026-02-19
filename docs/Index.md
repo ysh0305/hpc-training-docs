@@ -5,52 +5,63 @@ sidebar_position: 1
 
 # Introduction
 
-Welcome to **HPC Training Documentation**.
+Welcome to the **SDSC HPC & Cyberinfrastructure Training Tutorials**.
 
-This site serves as a central hub for a growing collection of high-performance computing (HPC) training series developed for SDSC users. The materials are organized into themed learning tracks that range from introductory concepts to more advanced HPC workflows and tools.
+This site is a centralized training hub for high-performance computing (HPC) and cyberinfrastructure (CI) education at the San Diego Supercomputer Center (SDSC). It provides structured, hands-on learning materials designed to help users work effectively with SDSC systems, services, and modern research computing workflows.
 
-Whether you are completely new to HPC or looking to deepen your technical skills, this documentation provides structured, hands-on guidance for working effectively on modern supercomputing systems.
+Our goal is to make SDSC’s computing resources more accessible by guiding users through practical examples, best practices, and foundational concepts that support real-world research and technical work.
 
 ---
 
 ## What you’ll find here
 
-This training portal currently includes multiple tutorial series, each targeting different aspects of HPC usage and best practices, such as:
+This portal will include **multiple tutorial series and documentation collections**, organized into learning tracks such as:
 
-- **HPC Basic Skills** — foundational Linux and Expanse usage
-- **Interactive Computing on Expanse** — running and managing interactive jobs  
-- **Jupyter on Expanse** — using notebooks in an HPC environment  
-- **GitHub at SDSC** — version control and collaborative workflows  
-- *(More series to be added over time as the curriculum expands.)*
+- Getting started with SDSC systems and accounts  
+- Linux, shell, and command-line essentials for HPC  
+- Running batch and interactive jobs on SDSC clusters  
+- Software environments, modules, containers, and reproducibility  
+- Data movement, storage, and workflow best practices  
+- Interactive computing tools (e.g., notebooks and portals)  
+- Collaboration and development workflows (e.g., Git and GitHub)  
 
-:::tip Learning paths
-Each series is designed as a coherent learning path, but you are free to jump directly to any module that matches your current needs or interests.
+Content will grow over time as new tutorials and updated materials are added.
+
+:::tip Flexible learning paths
+You can follow a full series from start to finish or jump directly to a specific module based on your experience level and goals.
 :::
 
 ---
 
-## Who this is for
+## Who this training is for
 
-This documentation is intended for:
+These tutorials are designed for:
 
-- Students, researchers, and staff new to HPC  
-- Users transitioning from laptops or cloud computing to shared supercomputing systems  
-- Anyone who wants a practical, hands-on foundation in HPC workflows  
-- Teams looking for a consistent training resource for new members  
+- Students, researchers, and staff new to SDSC systems  
+- Users transitioning from local machines or cloud platforms to shared HPC systems  
+- Research groups onboarding new members to SDSC cyberinfrastructure  
+- Anyone looking for practical, hands-on guidance for HPC and CI workflows  
 
 :::note No prior HPC experience required
-Basic familiarity with a terminal is helpful, but not required. The materials begin from fundamentals and build up gradually.
+Basic familiarity with a terminal is helpful but not required. The tutorials start from fundamentals and build up progressively.
 :::
+
+---
+
+## About SDSC Cyberinfrastructure
+
+SDSC provides advanced cyberinfrastructure resources that support computational research across disciplines. These resources include large-scale computing systems, storage platforms, interactive and data-intensive services, and tooling that enables reproducible and collaborative research.
+
+This training site is designed to help users navigate and effectively use these resources.
 
 ---
 
 ## How to get started
 
-Use the navigation sidebar to browse available training series and modules.
+Use the navigation sidebar to explore available tutorials. If you are new to HPC or SDSC systems, start with the introductory materials and follow the recommended path within each series.
 
 :::important Recommended starting point
-If you are new to HPC or the Linux command line, we recommend beginning with:  
-**HPC Basic Skills — Using SDSC HPC Resources on Expanse**.
+If you are new to HPC or the Linux command line, begin with the **HPC Basic Skills / Getting Started** section when available in the sidebar.
 :::
 
 ---
