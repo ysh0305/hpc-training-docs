@@ -28,11 +28,12 @@ const config: Config = {
         blog: false,
         pages: false,
         theme: {
-          customCss: "./src/css/custom.css",
+          customCss: require.resolve("./src/css/custom.css"),
         },
       } satisfies Preset.Options,
     ],
   ],
+
   themes: [
     [
       require.resolve("@cmfcmf/docusaurus-search-local"),
@@ -46,7 +47,23 @@ const config: Config = {
   ],
 
   themeConfig: {
+    colorMode: {
+      defaultMode: "light",
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
+    docs: {
+      sidebar: {
+        autoCollapseCategories: true,
+      },
+    },
+
     navbar: {
+      logo: {
+        alt: "SDSC Logo",
+        src: "img/sdsc_logo.png",
+        height: 32,
+      },
       items: [
         {
           type: "docSidebar",
@@ -60,9 +77,9 @@ const config: Config = {
         },
       ],
     },
+
     prism: {
       theme: prismThemes.github,
-      darkTheme: prismThemes.dracula,
     },
   } satisfies Preset.ThemeConfig,
 };

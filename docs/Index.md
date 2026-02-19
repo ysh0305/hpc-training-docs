@@ -2,6 +2,7 @@
 title: "Introduction"
 sidebar_position: 1
 ---
+import DocCardList from '@theme/DocCardList';
 
 # Introduction
 
@@ -15,15 +16,9 @@ Our goal is to make SDSC’s computing resources more accessible by guiding user
 
 ## What you’ll find here
 
-This portal will include **multiple tutorial series and documentation collections**, organized into learning tracks such as:
+This portal will include **multiple tutorial series and documentation collections**, organized into learning tracks:
 
-- Getting started with SDSC systems and accounts  
-- Linux, shell, and command-line essentials for HPC  
-- Running batch and interactive jobs on SDSC clusters  
-- Software environments, modules, containers, and reproducibility  
-- Data movement, storage, and workflow best practices  
-- Interactive computing tools (e.g., notebooks and portals)  
-- Collaboration and development workflows (e.g., Git and GitHub)  
+<DocCardList />
 
 Content will grow over time as new tutorials and updated materials are added.
 
